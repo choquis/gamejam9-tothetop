@@ -261,11 +261,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/test"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/test2"
+      "referenceTo": "/layouts/untitled-scene"
     }
   ],
   "externalEvents": [],
