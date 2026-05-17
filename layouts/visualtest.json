@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 230,
   "disableInputWhenNotFocused": true,
   "mangledName": "VisualTest",
   "name": "VisualTest",
-  "r": 247,
+  "r": 216,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 229,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,17 +20,1152 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.5653158055126366,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2698,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_background_yellow",
+      "persistentUuid": "f4ba9a81-1c0a-4cfa-8a7a-1df2c0ac1133",
+      "width": 1294,
+      "x": 924,
+      "y": -1815,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2702,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_background_yellow",
+      "persistentUuid": "5eab6836-133d-4925-8e62-689dc8b1393c",
+      "width": 1294,
+      "x": -1068,
+      "y": -1810,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_red",
+      "persistentUuid": "8c127e7d-cfa3-432b-bb1b-9d3c5d9fb0db",
+      "width": 1197,
+      "x": 44,
+      "y": 642,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "7550ac4a-d40d-4c39-bff2-71b26ff405bd",
+      "width": 472,
+      "x": 2056,
+      "y": -1059,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "b9f5b6b9-d5a2-4353-9511-8ac5c50ac8a8",
+      "width": 1160,
+      "x": 927,
+      "y": -968,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 22,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "2d8cb5ad-83aa-406b-a889-5eddbf5a9dd1",
+      "width": 472,
+      "x": -1307,
+      "y": -1023,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "5f63fc3e-14c2-4e7f-bffb-0dd4b5137544",
+      "width": 1160,
+      "x": -869,
+      "y": -937,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "5f1aca3f-2c27-4d98-817d-5ebdeeb31f09",
+      "width": 472,
+      "x": 2077,
+      "y": 340,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "e4074846-664a-40d0-8265-4b0abb29ae23",
+      "width": 1160,
+      "x": 948,
+      "y": 431,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 22,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "96a8a86c-d8a8-46b4-a450-e11ccc5f1457",
+      "width": 472,
+      "x": -1286,
+      "y": 376,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "0abb6848-a384-415a-bf3b-4794363d9082",
+      "width": 1160,
+      "x": -848,
+      "y": 462,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "4541f6bc-48b3-4f2d-9b62-d464841d48bd",
+      "width": 472,
+      "x": 1985,
+      "y": -342,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "9992a277-5372-4af4-9079-e479f27fafdb",
+      "width": 1160,
+      "x": 856,
+      "y": -251,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 22,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "c5fc2e1a-7ce1-46a3-ab51-031a3f3e2567",
+      "width": 472,
+      "x": -1378,
+      "y": -306,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_blue",
+      "persistentUuid": "90b3950a-680e-4e8e-9d5b-fa4ce5cc4243",
+      "width": 1160,
+      "x": -940,
+      "y": -220,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "b14f3de2-3963-4801-8bc5-c830aa60a086",
+      "width": 151,
+      "x": -74,
+      "y": -503,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "50b000e5-3c40-4244-b1b2-21ea4d4d8d5c",
+      "width": 151,
+      "x": 1051,
+      "y": 186,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "e4c1fe0d-acf3-4473-b335-ab02c98d8b65",
+      "width": 151,
+      "x": 1421,
+      "y": 188,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "4fba54f5-b3c4-49c9-893b-135e61f3fa00",
+      "width": 151,
+      "x": -424,
+      "y": 189,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "5a87f634-54ce-4a0a-9679-b7b5780d7cd6",
+      "width": 151,
+      "x": 1748,
+      "y": 185,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "8aacb489-f1b4-43d2-9a76-5ad7ff62d2a6",
+      "width": 151,
+      "x": -477,
+      "y": -1204,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "c24330ed-abd0-42e4-a141-b75d8537e0ad",
+      "width": 151,
+      "x": 1422,
+      "y": -512,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_open_window",
+      "persistentUuid": "d57ef9d0-8635-4963-9a64-789bf30ea2b0",
+      "width": 151,
+      "x": 1055,
+      "y": -1213,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_closed_window",
+      "persistentUuid": "2c91ed26-0139-4be1-9bc8-a8506c16e2f6",
+      "width": 0,
+      "x": 1423,
+      "y": -1207,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_closed_window",
+      "persistentUuid": "fac3208d-803d-4dfd-9a1b-2a739a3df565",
+      "width": 0,
+      "x": -70,
+      "y": 194,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_closed_window",
+      "persistentUuid": "f3ce4968-4a6c-4ebe-9ae6-3b5895ccc8a9",
+      "width": 0,
+      "x": -435,
+      "y": -502,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_closed_window",
+      "persistentUuid": "27bdfa68-a516-4c7c-912e-a048ef5be71d",
+      "width": 0,
+      "x": -89,
+      "y": -1215,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_closed_window",
+      "persistentUuid": "fbc235b8-3e87-4a92-bfe4-be55bcb328c7",
+      "width": 0,
+      "x": 1089,
+      "y": -528,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_piano",
+      "persistentUuid": "fe7a4a1d-f3ae-4a98-9b06-7be01cd6097e",
+      "width": 0,
+      "x": 253,
+      "y": 198,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_saxophone",
+      "persistentUuid": "3a4137a1-d68b-45cc-81bf-a60292673e97",
+      "width": 0,
+      "x": 652,
+      "y": 94,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_drum",
+      "persistentUuid": "01679539-61eb-4951-8fcb-a5e9212aa0ff",
+      "width": 0,
+      "x": 577,
+      "y": 279,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "player_dummy",
+      "persistentUuid": "3bb5dfda-75ee-4c22-8919-c27725544cf3",
+      "width": 0,
+      "x": 648,
+      "y": 397,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "alert_help",
+      "persistentUuid": "e123b1dc-f626-4328-8b9c-daad65408c60",
+      "width": 0,
+      "x": 1012,
+      "y": -5,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "alert_thank_you",
+      "persistentUuid": "3d5318b9-1185-448a-a038-6d4eb2e98388",
+      "width": 0,
+      "x": 1187,
+      "y": -104,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "npc_purple",
+      "persistentUuid": "3190e04f-bf4f-4acb-977a-bd860398a97f",
+      "width": 0,
+      "x": 1030,
+      "y": 168,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bottomMargin": 50,
+      "height": 300,
+      "leftMargin": 50,
+      "name": "city_background_yellow",
+      "persistentUuid": "b473701c-7ee0-4f69-b60b-35a8a0f55c6f",
+      "rightMargin": 50,
+      "texture": "assets/Pared_ciudad.png",
+      "tiled": true,
+      "topMargin": 50,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 300,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 80,
+      "leftMargin": 67,
+      "name": "city_ground_red",
+      "persistentUuid": "ad52b1c4-a1a7-46f7-9e2f-8ac012201f24",
+      "rightMargin": 23,
+      "texture": "assets/Piso_rojo.png",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 300,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 40,
+      "leftMargin": 67,
+      "name": "city_ground_blue",
+      "persistentUuid": "ca7b0e9f-ef24-493c-8d17-54291113a63b",
+      "rightMargin": 23,
+      "texture": "assets/Piso_morado.png",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 300,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 200,
+      "leftMargin": 50,
+      "name": "city_open_window",
+      "persistentUuid": "2a047ea5-0241-47ab-ac6e-6d0d33f68422",
+      "rightMargin": 50,
+      "texture": "assets/Ventana.png",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 150,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 200,
+      "leftMargin": 50,
+      "name": "city_closed_window",
+      "persistentUuid": "6ff7f8c8-7d4a-4a65-981f-1a994144f5e3",
+      "rightMargin": 50,
+      "texture": "assets/Ventana_cerrada.png",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 150,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "city_piano",
+      "persistentUuid": "8516b147-e0b4-4a61-8d79-78715494f085",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Piano.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 99
+                      },
+                      {
+                        "x": 8,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "city_saxophone",
+      "persistentUuid": "3fc8c276-c177-43dd-8f6b-04589dd634a2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Saxofon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 220,
+                        "y": 1
+                      },
+                      {
+                        "x": 220,
+                        "y": 145
+                      },
+                      {
+                        "x": 0,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "city_drum",
+      "persistentUuid": "f9d0e8d6-2beb-4665-8be8-83a19f34b2c7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Tambor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 117,
+                        "y": 1
+                      },
+                      {
+                        "x": 117,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "player_dummy",
+      "persistentUuid": "bda03df3-bf94-43a6-9c37-0d62fabf7366",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/Firefighter_character.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 73,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 250
+                      },
+                      {
+                        "x": 73,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "alert_help",
+      "persistentUuid": "ea6be543-b98e-4ead-968b-3745c4849864",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Help.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 147,
+                        "y": 2
+                      },
+                      {
+                        "x": 147,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "alert_thank_you",
+      "persistentUuid": "79433663-992b-4d30-a128-9cb243630616",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Thankyou.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 227,
+                        "y": 1
+                      },
+                      {
+                        "x": 227,
+                        "y": 121
+                      },
+                      {
+                        "x": 1,
+                        "y": 121
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "npc_purple",
+      "persistentUuid": "26a573bc-b0a8-469c-8e34-411ce876d9a6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Npc.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "city_background_yellow"
+      },
+      {
+        "objectName": "city_ground_red"
+      },
+      {
+        "objectName": "city_ground_blue"
+      },
+      {
+        "objectName": "city_open_window"
+      },
+      {
+        "objectName": "city_closed_window"
+      },
+      {
+        "objectName": "city_piano"
+      },
+      {
+        "objectName": "city_saxophone"
+      },
+      {
+        "objectName": "city_drum"
+      },
+      {
+        "objectName": "player_dummy"
+      },
+      {
+        "objectName": "alert_help"
+      },
+      {
+        "objectName": "alert_thank_you"
+      },
+      {
+        "objectName": "npc_purple"
+      }
+    ]
   },
   "events": [],
   "layers": [
@@ -102,12 +1237,24 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",

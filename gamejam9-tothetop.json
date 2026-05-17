@@ -389,6 +389,102 @@
         "name": "destorybox",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Pared_ciudad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Pared_ciudad.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Piso_rojo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Piso_rojo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Piso_morado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Piso_morado.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ventana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Ventana.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ventana_cerrada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Ventana_cerrada.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Piano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Piano.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Saxofon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Saxofon.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tambor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Tambor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/Firefighter_character.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/Firefighter_character.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Help.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Help.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Thankyou.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Thankyou.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Npc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Npc.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
