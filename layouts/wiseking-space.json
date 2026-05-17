@@ -20,31 +20,35 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.24672586957406628,
+    "zoomFactor": 0.1892301038062318,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
-  "objectsGroups": [],
-  "variables": [],
-  "instances": [
+  "objectsGroups": [
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 2497,
-      "keepRatio": true,
-      "layer": "",
-      "name": "build_1",
-      "persistentUuid": "f38f23ca-f6d0-4877-9b08-09c8da22778b",
-      "width": 748,
-      "x": -330,
-      "y": -1778,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
+      "name": "fallingobject",
+      "objects": [
+        {
+          "name": "city_piano_all"
+        },
+        {
+          "name": "city_saxophone"
+        },
+        {
+          "name": "city_drum"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "gameSpeed",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
     {
       "angle": 0,
       "customSize": true,
@@ -457,40 +461,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 76,
-      "keepRatio": true,
-      "layer": "",
-      "name": "firefighter",
-      "persistentUuid": "45aa35cc-9b61-47b9-b405-98f2917df658",
-      "width": 40,
-      "x": 622,
-      "y": 442,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FireSafetyPad",
-      "persistentUuid": "e4f9a7a0-2b6e-44ba-9188-386c9aee10dd",
-      "width": 131,
-      "x": 570,
-      "y": 519,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 83,
       "keepRatio": true,
       "layer": "",
@@ -500,57 +470,6 @@
       "x": 447,
       "y": 638,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 131,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FallingMusicInstructment",
-      "persistentUuid": "e4c8fdba-561c-4c05-9a02-ada274150330",
-      "width": 131,
-      "x": 488,
-      "y": -280,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 59,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FallingMusicInstructment",
-      "persistentUuid": "6d95922f-e9d7-49f1-bd4a-3d48d69780d1",
-      "width": 59,
-      "x": 604,
-      "y": -1,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 131,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FallingMusicInstructment",
-      "persistentUuid": "b0abc356-a47c-468d-8062-1b9da14d3672",
-      "width": 55,
-      "x": 791,
-      "y": 129,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -567,22 +486,6 @@
       "x": 477,
       "y": 664,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 2503,
-      "layer": "",
-      "name": "build_2",
-      "persistentUuid": "6f3e1da8-becc-4315-bb89-9edfaee1c350",
-      "width": 735,
-      "x": 868,
-      "y": -1783,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1592,16 +1495,80 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 2497,
+      "layer": "",
+      "name": "new_build_1",
+      "persistentUuid": "896ad91f-5450-4a0a-a780-e18f246cc01f",
+      "width": 748,
+      "x": -330,
+      "y": -1778,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 2497,
+      "layer": "",
+      "name": "new_build_2",
+      "persistentUuid": "e8f0c3a2-1aab-41ed-a09d-eece994b8977",
+      "width": 748,
+      "x": 868,
+      "y": -1783,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "explainText",
-      "persistentUuid": "5a6f83d1-6920-4030-be8a-3f937483af4d",
+      "name": "firefighter",
+      "persistentUuid": "f0970bf0-edc7-48fe-9e97-654bb22927d0",
       "width": 0,
-      "x": 1157,
-      "y": 341,
+      "x": 498,
+      "y": 235,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FireSafetyPad",
+      "persistentUuid": "7c84d758-9d1b-4cae-aabe-16fe61464e7d",
+      "width": 0,
+      "x": 470,
+      "y": 509,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "speed",
+      "persistentUuid": "1d9e5fd2-4951-45b9-abc9-f5ea65e837c0",
+      "width": 0,
+      "x": 464,
+      "y": 54,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1672,12 +1639,12 @@
     },
     {
       "assetStoreId": "",
-      "height": 32,
+      "height": 50,
       "name": "build_1",
       "persistentUuid": "85ecdb3e-6435-4bb2-a870-a59a0886efc2",
-      "texture": "building",
+      "texture": "assets/Pared_ciudad.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
+      "width": 50,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -1745,7 +1712,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "firefighter",
       "persistentUuid": "3e752dd0-ef96-40fd-976a-ee40a89f1e3c",
@@ -1811,12 +1778,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "firefighter",
+                  "image": "assets/player_sprites/Firefighter_character.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": -0.5,
+                    "y": -2
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1827,20 +1794,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 73,
+                        "y": 100
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 179,
+                        "y": 100
                       },
                       {
-                        "x": 16,
-                        "y": 32
+                        "x": 179,
+                        "y": 250
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 73,
+                        "y": 250
                       }
                     ]
                   ]
@@ -1904,7 +1871,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "assets/Piso_rojo.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1924,16 +1891,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 299,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 32
+                        "x": 299,
+                        "y": 80
                       },
                       {
                         "x": 0,
-                        "y": 32
+                        "y": 80
                       }
                     ]
                   ]
@@ -2281,9 +2248,9 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
-      "name": "explainText",
+      "name": "speed",
       "persistentUuid": "19f4ed09-f9ef-45a0-9e90-4cc441132ec5",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -2291,17 +2258,17 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "windows",
+      "string": "0",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 45,
+      "characterSize": 121,
       "color": {
         "b": 255,
         "g": 255,
         "r": 255
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
@@ -2314,14 +2281,327 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "windows",
+        "text": "0",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 45,
+        "characterSize": 121,
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 50,
+      "height": 300,
+      "leftMargin": 50,
+      "name": "new_build_1",
+      "persistentUuid": "510fd4ca-b659-404f-a8cc-ed2adf343a2c",
+      "rightMargin": 50,
+      "texture": "assets/Pared_ciudad.png",
+      "tiled": true,
+      "topMargin": 50,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 300,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 50,
+      "height": 300,
+      "leftMargin": 50,
+      "name": "new_build_2",
+      "persistentUuid": "a4f11f52-e043-4083-8b9a-6c437f163707",
+      "rightMargin": 50,
+      "texture": "assets/Pared_ciudad.png",
+      "tiled": true,
+      "topMargin": 50,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 300,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "city_saxophone",
+      "persistentUuid": "aac8fbe1-1196-4277-83d7-e33ed884360a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Saxofon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 220,
+                        "y": 1
+                      },
+                      {
+                        "x": 220,
+                        "y": 145
+                      },
+                      {
+                        "x": 0,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "city_drum",
+      "persistentUuid": "a11b25d0-7045-4426-afad-afcf059d8a9f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Tambor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 117,
+                        "y": 1
+                      },
+                      {
+                        "x": 117,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "city_piano_all",
+      "persistentUuid": "35c9cde1-1d44-4197-b836-e38fc4b09deb",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Piano.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 99
+                      },
+                      {
+                        "x": 8,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Saxofon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 99
+                      },
+                      {
+                        "x": 8,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Tambor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 3
+                      },
+                      {
+                        "x": 243,
+                        "y": 99
+                      },
+                      {
+                        "x": 8,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2337,6 +2617,12 @@
         "objectName": "build_1"
       },
       {
+        "objectName": "new_build_1"
+      },
+      {
+        "objectName": "new_build_2"
+      },
+      {
         "objectName": "build_2"
       },
       {
@@ -2347,6 +2633,15 @@
       },
       {
         "objectName": "FireSafetyPad"
+      },
+      {
+        "objectName": "city_saxophone"
+      },
+      {
+        "objectName": "city_piano_all"
+      },
+      {
+        "objectName": "city_drum"
       },
       {
         "objectName": "platform"
@@ -2361,7 +2656,7 @@
         "objectName": "firetruck2"
       },
       {
-        "objectName": "explainText"
+        "objectName": "speed"
       }
     ]
   },
@@ -2388,6 +2683,15 @@
             "Opacity",
             "=",
             "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"dropValues\""
           ]
         }
       ]
@@ -2418,7 +2722,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "build_1",
+            "new_build_1",
             "",
             "",
             ""
@@ -2447,7 +2751,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "build_2",
+            "new_build_2",
             "",
             "",
             ""
@@ -2477,7 +2781,7 @@
           },
           "parameters": [
             "FireSafetyPad",
-            "build_1",
+            "new_build_1",
             "build_1",
             "",
             ""
@@ -2491,7 +2795,7 @@
           },
           "parameters": [
             "FireSafetyPad",
-            "build_1",
+            "new_build_1",
             ""
           ]
         }
@@ -2506,7 +2810,7 @@
           },
           "parameters": [
             "FireSafetyPad",
-            "build_2",
+            "new_build_2",
             "build_1",
             "",
             ""
@@ -2520,7 +2824,7 @@
           },
           "parameters": [
             "FireSafetyPad",
-            "build_2",
+            "new_build_2",
             ""
           ]
         }
@@ -2542,6 +2846,867 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "spawn object/collusion and point",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "spawn object from top position/ game mechanic .... use variable to determine the wight"
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "gems",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"increaseGameSpeed\"",
+                ">=",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "gameSpeed",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "speed",
+                "=",
+                "\"speed:\" + ToString(Variable(gameSpeed))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"increaseGameSpeed\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "gameSpeed",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "city_piano_all",
+                "0",
+                "350",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "city_piano_all",
+                    "RandomInRange(480, 800 -80)",
+                    "-2000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "city_piano_all",
+                    "150",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "city_piano_all",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\"",
+                    ">=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "redFlag",
+                    "RandomInRange(26, 999 - 80)",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "110",
+                    "110"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "gameSpeed",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "object",
+                "0",
+                "600",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\"",
+                    ">=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "redFlag",
+                    "RandomInRange(26, 999 - 80)",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "110",
+                    "110"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\"",
+                    ">=",
+                    "0.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "gems",
+                    "RandomInRange(26, 999 - 80)",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "gems",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "gems",
+                    "150",
+                    "150"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "gameSpeed",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "object",
+                "0",
+                "800",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "redFlag",
+                    "RandomInRange(26, 999 - 80)",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "110",
+                    "110"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\"",
+                    ">=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "gems",
+                    "RandomInRange(26, 999 - 80)",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "gems",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "gems",
+                    "150",
+                    "150"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "gameSpeed",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "object",
+                "0",
+                "1200",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "redFlag",
+                    "RandomInRange(26, 999 - 80)",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropRedflag\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "redFlag",
+                    "110",
+                    "110"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\"",
+                    ">=",
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "gems",
+                    "RandomInRange(26, 999 - 80)",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"dropValues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "gems",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSize"
+                  },
+                  "parameters": [
+                    "gems",
+                    "150",
+                    "150"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "collision detection"
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "gems",
+                "redFlag",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "gems",
+                "redFlag",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "gems",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "gems",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "addPoint",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "point",
+                "=",
+                "\"Point:\" + ToString(Variable(addPoint))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "\"Score:\" + ToString(Variable(addPoint))"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -2572,6 +3737,60 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer 2",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
