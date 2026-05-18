@@ -21,23 +21,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "E",
-            "Text",
-            "=",
-            "\"\""
-          ]
-        }
-      ]
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -164,25 +147,6 @@
                 "Animation",
                 "=",
                 "\"landing\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "E",
-                    "Text",
-                    "+",
-                    "\"AAAH\""
-                  ]
-                }
               ]
             }
           ]
@@ -315,7 +279,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Adjust animation for torso. To bump it up little"
+              "comment": "Adjust animation for torso. To pump it up little"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -593,7 +557,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -813,7 +776,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -1044,23 +1006,6 @@
                         "CursorAngle",
                         "800",
                         ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "E",
-                        "Text",
-                        "=",
-                        "ToString(trunc(CursorAngle))"
                       ]
                     }
                   ]

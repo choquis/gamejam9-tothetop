@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0269425874981217,
+    "zoomFactor": 1.0269425874981224,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -295,7 +295,7 @@
       "width": 151,
       "x": -74,
       "y": -503,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -312,7 +312,7 @@
       "width": 151,
       "x": 1051,
       "y": 186,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -329,7 +329,7 @@
       "width": 151,
       "x": 1421,
       "y": 188,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -346,7 +346,7 @@
       "width": 151,
       "x": -424,
       "y": 189,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -363,7 +363,7 @@
       "width": 151,
       "x": 1748,
       "y": 185,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -380,7 +380,7 @@
       "width": 151,
       "x": -477,
       "y": -1204,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -397,7 +397,7 @@
       "width": 151,
       "x": 1422,
       "y": -512,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -414,7 +414,7 @@
       "width": 151,
       "x": 1055,
       "y": -1213,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -508,8 +508,8 @@
       "name": "player_legs",
       "persistentUuid": "d9cc8f2d-d6c3-4b07-9557-a58fef17f798",
       "width": 0,
-      "x": 798,
-      "y": 470,
+      "x": 765,
+      "y": 468,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -524,8 +524,8 @@
       "name": "player_torso",
       "persistentUuid": "d769f6a8-7766-4dd6-a766-5660b8b0698b",
       "width": 0,
-      "x": 554,
-      "y": 411,
+      "x": 512,
+      "y": 409,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -601,17 +601,64 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 77,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
-      "layer": "UI",
-      "name": "E",
-      "persistentUuid": "866e9b28-c6da-4f17-9ed5-7b429424200d",
-      "width": 252,
-      "x": 560,
-      "y": 19,
-      "zOrder": 8,
+      "layer": "",
+      "name": "npc_purple",
+      "persistentUuid": "f9a6ec49-6499-4ecf-9a37-7e11fa1d351d",
+      "width": 0,
+      "x": 1731,
+      "y": 168,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "npc_purple",
+      "persistentUuid": "60d08130-b23b-4950-b147-6bf14d2e70a8",
+      "width": 0,
+      "x": 1031,
+      "y": 169,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "npc_purple",
+      "persistentUuid": "59219a73-e3f5-4664-ad4a-5270fc22558b",
+      "width": 0,
+      "x": 1406,
+      "y": 172,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "alert_help",
+      "persistentUuid": "ddb2ae3a-85ef-4474-9bdf-ae971466bcae",
+      "width": 0,
+      "x": 1134,
+      "y": 5,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1021,12 +1068,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "active",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -1082,12 +1129,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "active",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -1143,16 +1190,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "screaming",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Npc.png",
+                  "image": "assets/npc_sprites/Npc-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1169,14 +1216,602 @@
                     [
                       {
                         "x": 47,
-                        "y": 0
+                        "y": 62
                       },
                       {
-                        "x": 183,
-                        "y": 0
+                        "x": 162,
+                        "y": 62
                       },
                       {
-                        "x": 183,
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "thanking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 200
+                      },
+                      {
+                        "x": 47,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/npc_sprites/Npc-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
+                        "y": 62
+                      },
+                      {
+                        "x": 162,
                         "y": 200
                       },
                       {
@@ -1850,6 +2485,13 @@
         "includeConfig": 0
       },
       "target": "Player"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Npc"
     }
   ],
   "layers": [
@@ -1880,60 +2522,6 @@
           "width": 0
         }
       ],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "UI",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
