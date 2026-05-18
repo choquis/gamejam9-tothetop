@@ -1601,7 +1601,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -1690,6 +1690,90 @@
               ]
             }
           ]
+        },
+        {
+          "name": "landing",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/pices/Firefighter_character_edits-4-export.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 73,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 220
+                      },
+                      {
+                        "x": 73,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/pices/Firefighter_character_edits-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 73,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 220
+                      },
+                      {
+                        "x": 73,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -1742,6 +1826,24 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CenterCameraOnObject"
+          },
+          "parameters": [
+            "",
+            "player_legs",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {

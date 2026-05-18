@@ -21,6 +21,23 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "E",
+            "Text",
+            "=",
+            "\"\""
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -121,13 +138,9 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsJumping"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "player_legs",
-                "PlatformerObject"
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -140,6 +153,36 @@
                 "Animation",
                 "=",
                 "\"stand\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "player_torso",
+                "Animation",
+                "=",
+                "\"landing\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "E",
+                    "Text",
+                    "+",
+                    "\"AAAH\""
+                  ]
+                }
               ]
             }
           ]
@@ -195,7 +238,8 @@
           "conditions": [
             {
               "type": {
-                "value": "PlatformBehavior::IsJumping"
+                "inverted": true,
+                "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
                 "player_legs",
@@ -204,12 +248,28 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsOnFloor"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "player_legs",
-                "PlatformerObject"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "player_legs",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "player_legs",
+                    "PlatformerObject"
+                  ]
+                }
               ]
             }
           ],
@@ -228,44 +288,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::IsFalling"
-              },
-              "parameters": [
-                "player_legs",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "player_legs",
-                "PlatformerObject"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "player_legs",
-                "Animation",
-                "=",
-                "\"jumping\""
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -362,6 +384,62 @@
                     "player_legs",
                     "Animation",
                     "=",
+                    "\"running\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "player_legs",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "player_legs",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenterY"
+                  },
+                  "parameters": [
+                    "player_torso",
+                    "+",
+                    "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "player_legs",
+                    "Animation",
+                    "=",
                     "\"jumping\""
                   ]
                 }
@@ -375,6 +453,44 @@
                     "player_torso",
                     "-",
                     "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "player_torso",
+                    "Animation",
+                    "=",
+                    "\"landing\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "player_torso",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "player_torso",
+                    "Animation",
+                    "=",
+                    "\"stand\""
                   ]
                 }
               ]
@@ -451,7 +567,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Set the angle the first time pressed to prevent buggy animation"
+                  "comment": "Set the angle the first time is pressed to prevent buggy animation"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -477,6 +593,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -523,7 +640,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Adjust the center in X to make it a little bit more visually apealing"
+                      "comment": "Adjust the torso center in X and Y to make it more visually apealing"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -547,7 +664,148 @@
                           "parameters": [
                             "player_torso",
                             "+",
-                            "16"
+                            "20"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            ">=",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            "<=",
+                            "165"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "-",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "-",
+                            "4"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            "<=",
+                            "-15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            ">=",
+                            "-165"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "+",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "-",
+                            "4"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            ">=",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            "<=",
+                            "135"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "-",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "-",
+                            "4"
                           ]
                         }
                       ]
@@ -555,6 +813,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -592,6 +851,18 @@
                   ],
                   "events": [
                     {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Adjust the torso center in X and Y to make it more visually apealing"
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -612,58 +883,150 @@
                           "parameters": [
                             "player_torso",
                             "-",
-                            "16"
+                            "20"
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Adjust the center in Y to make it a little bit more visually apealing"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "CursorAngle",
-                        ">=",
-                        "15"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            ">=",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            "<=",
+                            "165"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "-",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "+",
+                            "4"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "CursorAngle",
-                        "<=",
-                        "165"
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            "<=",
+                            "-15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            ">=",
+                            "-165"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "+",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "+",
+                            "4"
+                          ]
+                        }
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
-                      "type": {
-                        "value": "SetCenterY"
-                      },
-                      "parameters": [
-                        "player_torso",
-                        "-",
-                        "8"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            ">=",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "CursorAngle",
+                            "<=",
+                            "135"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "-",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenterX"
+                          },
+                          "parameters": [
+                            "player_torso",
+                            "+",
+                            "4"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -726,21 +1089,9 @@
           "comment": "Reset torso state if is not pressing the mouse"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Else",
           "conditions": [],
           "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "player_torso",
-                "Animation",
-                "=",
-                "\"stand\""
-              ]
-            },
             {
               "type": {
                 "value": "SetAngle"
@@ -763,6 +1114,36 @@
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "player_torso",
+                    "Animation",
+                    "=",
+                    "\"landing\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "player_torso",
+                    "Animation",
+                    "=",
+                    "\"stand\""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [

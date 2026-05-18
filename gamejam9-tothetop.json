@@ -557,6 +557,14 @@
         "name": "assets/player_sprites/pices/Firefighter_character_edits-3.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/pices/Firefighter_character_edits-4-export.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/pices/Firefighter_character_edits-4-export.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
