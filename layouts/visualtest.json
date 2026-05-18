@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.14039857806034178,
+    "zoomFactor": 0.46331118245140424,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -32,14 +32,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2698,
+      "height": 5669,
       "keepRatio": true,
       "layer": "",
       "name": "city_background_yellow",
       "persistentUuid": "f4ba9a81-1c0a-4cfa-8a7a-1df2c0ac1133",
       "width": 1294,
       "x": 924,
-      "y": -1815,
+      "y": -3282,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,21 +49,21 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2702,
+      "height": 5729,
       "keepRatio": true,
       "layer": "",
       "name": "city_background_yellow",
       "persistentUuid": "5eab6836-133d-4925-8e62-689dc8b1393c",
       "width": 1294,
-      "x": -1068,
-      "y": -1810,
+      "x": -976,
+      "y": -3309,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
       "depth": 1,
       "height": 79,
@@ -71,9 +71,9 @@
       "layer": "",
       "name": "city_ground_red",
       "persistentUuid": "8c127e7d-cfa3-432b-bb1b-9d3c5d9fb0db",
-      "width": 448,
-      "x": 375,
-      "y": 642,
+      "width": 5112,
+      "x": -4308,
+      "y": -1703,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -157,8 +157,8 @@
       "name": "city_ground_blue",
       "persistentUuid": "5f1aca3f-2c27-4d98-817d-5ebdeeb31f09",
       "width": 472,
-      "x": 2077,
-      "y": 340,
+      "x": 2071,
+      "y": 457,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,8 +174,8 @@
       "name": "city_ground_blue",
       "persistentUuid": "e4074846-664a-40d0-8265-4b0abb29ae23",
       "width": 1160,
-      "x": 948,
-      "y": 431,
+      "x": 942,
+      "y": 548,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -191,8 +191,8 @@
       "name": "city_ground_blue",
       "persistentUuid": "96a8a86c-d8a8-46b4-a450-e11ccc5f1457",
       "width": 472,
-      "x": -1286,
-      "y": 376,
+      "x": -1292,
+      "y": 493,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -208,8 +208,8 @@
       "name": "city_ground_blue",
       "persistentUuid": "0abb6848-a384-415a-bf3b-4794363d9082",
       "width": 1160,
-      "x": -848,
-      "y": 462,
+      "x": -839,
+      "y": 770,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -444,8 +444,8 @@
       "name": "city_closed_window",
       "persistentUuid": "fac3208d-803d-4dfd-9a1b-2a739a3df565",
       "width": 0,
-      "x": 73,
-      "y": 184,
+      "x": -69,
+      "y": 195,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -505,11 +505,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "city_piano",
-      "persistentUuid": "fe7a4a1d-f3ae-4a98-9b06-7be01cd6097e",
+      "name": "player_legs",
+      "persistentUuid": "d9cc8f2d-d6c3-4b07-9557-a58fef17f798",
       "width": 0,
-      "x": 253,
-      "y": 198,
+      "x": 798,
+      "y": 470,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -521,11 +521,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "city_saxophone",
-      "persistentUuid": "3a4137a1-d68b-45cc-81bf-a60292673e97",
+      "name": "player_torso",
+      "persistentUuid": "d769f6a8-7766-4dd6-a766-5660b8b0698b",
       "width": 0,
-      "x": 652,
-      "y": 94,
+      "x": 554,
+      "y": 411,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -533,80 +533,68 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
       "keepRatio": true,
       "layer": "",
-      "name": "city_drum",
-      "persistentUuid": "01679539-61eb-4951-8fcb-a5e9212aa0ff",
-      "width": 0,
-      "x": 577,
-      "y": 279,
-      "zOrder": 8,
+      "name": "city_ground_red",
+      "persistentUuid": "209ffbfe-0ca7-4ed2-9458-b0a6b967d6e1",
+      "width": 375,
+      "x": 394,
+      "y": 644,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
       "keepRatio": true,
       "layer": "",
-      "name": "player_dummy",
-      "persistentUuid": "3bb5dfda-75ee-4c22-8919-c27725544cf3",
-      "width": 0,
-      "x": 505,
-      "y": 397,
-      "zOrder": 9,
+      "name": "city_ground_red",
+      "persistentUuid": "3206b48e-4f0e-46c6-9a94-ea61ea3acfcd",
+      "width": 5112,
+      "x": -1814,
+      "y": 892,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "city_ground_red",
+      "persistentUuid": "d4c33751-28d8-4f97-aad0-bbf01d5926e2",
+      "width": 5112,
+      "x": 776,
+      "y": -1622,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
       "keepRatio": true,
       "layer": "",
-      "name": "alert_help",
-      "persistentUuid": "e123b1dc-f626-4328-8b9c-daad65408c60",
-      "width": 0,
-      "x": 1012,
-      "y": -5,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "alert_thank_you",
-      "persistentUuid": "3d5318b9-1185-448a-a038-6d4eb2e98388",
-      "width": 0,
-      "x": 1187,
-      "y": -104,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "npc_purple",
-      "persistentUuid": "3190e04f-bf4f-4acb-977a-bd860398a97f",
-      "width": 0,
-      "x": 1030,
-      "y": 168,
-      "zOrder": 12,
+      "name": "city_ground_blue",
+      "persistentUuid": "28706079-5713-4b0d-93a4-b1fce3eda6b6",
+      "width": 1160,
+      "x": -854,
+      "y": 579,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -645,7 +633,38 @@
       "width": 300,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -662,7 +681,38 @@
       "width": 300,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "platformType": "Jumpthru",
+          "canBeGrabbed": true,
+          "yGrabOffset": 0
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -1124,6 +1174,497 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "player_legs",
+      "persistentUuid": "0f2ded68-4c43-4245-852f-64c658c5908c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": false,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "stand",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "running",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jumping",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 250
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 140
+                      },
+                      {
+                        "x": 178,
+                        "y": 250
+                      },
+                      {
+                        "x": 102,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "player_torso",
+      "persistentUuid": "6efb116f-181d-47e9-b5bf-89aa03172800",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "stand",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/pices/Firefighter_character_edits-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 73,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 220
+                      },
+                      {
+                        "x": 73,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "spray",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player_sprites/pices/Firefighter_character_edits-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 125,
+                    "y": 180
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 73,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 100
+                      },
+                      {
+                        "x": 179,
+                        "y": 220
+                      },
+                      {
+                        "x": 73,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1164,10 +1705,24 @@
       },
       {
         "objectName": "npc_purple"
+      },
+      {
+        "objectName": "player_legs"
+      },
+      {
+        "objectName": "player_torso"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Player"
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -1251,6 +1806,23 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Physics2",
+      "type": "Physics2::Physics2Behavior",
+      "gravityX": 0,
+      "gravityY": 9.8,
+      "worldScale": 100,
+      "scaleX": 100,
+      "scaleY": 100
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
     {
       "name": "Resizable",

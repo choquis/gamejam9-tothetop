@@ -485,6 +485,78 @@
         "name": "assets/Npc.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/no_torso/Firefighter_character_anim_half_body-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/pices/Firefighter_character_edits-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/pices/Firefighter_character_edits-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_sprites/pices/Firefighter_character_edits-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_sprites/pices/Firefighter_character_edits-3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -562,7 +634,12 @@
       "referenceTo": "/layouts/level1"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
